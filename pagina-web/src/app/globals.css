@@ -3,24 +3,52 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Colores personalizados */
+  --dark-blue: #001C36;
+  --darkest-blue: #053D6A;
+  --darker-blue: #34689F;
+  --medium-blue: #638CB4;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-sans: var(--font-albert);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --dark-blue: #001C36;
+    --darkest-blue: #053D6A;
+    --darker-blue: #34689F;
+    --medium-blue: #638CB4;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  @apply font-sans;
+}
+
+.text-dark-blue {
+  color: var(--dark-blue);
+}
+
+.text-darkest-blue {
+  color: var(--darkest-blue);
+}
+
+.text-darker-blue {
+  color: var(--darker-blue);
+}
+
+.text-medium-blue {
+  color: var(--medium-blue);
 }
