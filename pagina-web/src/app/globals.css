@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;700;900&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Fuentes personalizadas */
+  --font-albert: 'Albert Sans', 'Albert Sans Fallback', sans-serif;
 
   /* Colores personalizados */
   --dark-blue: #001C36;
@@ -51,4 +55,17 @@ body {
 
 .text-medium-blue {
   color: var(--medium-blue);
+}
+
+
+
+/* Utilidades para Albert Sans */
+.font-albert-medium {
+  font-family: var(--font-albert);
+  font-weight: 500;
+}
+
+.font-albert-black {
+  font-family: var(--font-albert);
+  font-weight: 900;
 }
