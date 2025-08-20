@@ -1,3 +1,5 @@
+import Footer from '../components/Footer';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#b3cde0]">
@@ -25,7 +27,7 @@ export default function Home() {
             <option>Español</option>
             <option>English</option>
           </select>
-        </div>
+        </div> 
       </header>
 
       {/* Hero Section */}
@@ -57,6 +59,7 @@ export default function Home() {
           />
         </div>
       </main>
+    <Footer />
     </div>
   )
 }
