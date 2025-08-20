@@ -14,9 +14,6 @@ export default function Header() {
         <a href="#" className="hover:underline">
           Clínicas
         </a>
-        <a href="#" className="hover:underline">
-          Como agendar
-        </a>
         <a
           href="#"
           className="px-6 py-2 rounded-full bg-[#001C36] text-white font-semibold text-[16px] leading-none"

@@ -15,7 +15,6 @@ export default function Footer() {
 
         <div className={footerStyles.menu}>
           <a href="#inicio" className={footerStyles.link}>Inicio</a>
-          <a href="#agendar" className={footerStyles.link}>Cómo agendar</a>
           <a href="#contacto" className={footerStyles.link}>Contacto</a>
         </div>
 
